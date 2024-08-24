@@ -134,8 +134,14 @@ main {
     align-content: stretch;
 }
 
+.box-icons {
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+}
+
 .icons {
-    height: 20px;
+    height: 25px;
     width: auto;
 }
 
