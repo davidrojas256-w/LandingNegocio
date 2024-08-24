@@ -2,98 +2,134 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inicial-scale=1.0"
-        
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>Landing Page - David Rojas</title>
+        <link rel="stylesheet" href="/assets/styles.css">
     </head>
+
     <body>
         <header>
-          <!-- <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>   -->
-          <ul>
-            <li>Servicios</li>
-            <li>¿Quiénes somos?</li>
-            <li>Contacto</li>
-          </ul>
+            <div class="logo">
+                <div class="logo-container">
+                    <div class="logo-space">
+                        <img src="images/logo.png" class="img-logo"/>
+                    </div>
+                    <div class="logo-name">
+                        <h1>Arch Comp.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="botSup">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#contact" class="cta"> Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+
         <main>
             <!-- Jumbotron -->
-                Soporte Técnico a Domicilio
-                ¿Tienes problemas con tu computadora o dispositivo móvil? Nuestro equipo de expertos ofrece soporte técnico remoto para resolver cualquier problema que enfrentes, desde la comodidad de tu hogar. Nos conectamos a tu dispositivo de forma segura para diagnosticar y reparar problemas rápidamente.
-                <input id="email" placeholder="Ingresa tu correo">
-                Nos pondremos en conctacto contigo a la brevedad. 
+                <img src="images/image-1.jpg" class="img1"/>
+                <div class="text-jumb">
+                    <div class="texto">
+                        <h2>Soporte Técnico a Domicilio</h2>
+                        <p>¿Tienes problemas con tu computadora o dispositivo móvil? Nuestro equipo de expertos ofrece soporte técnico remoto para resolver cualquier problema que enfrentes, desde la comodidad de tu hogar.</p>
+                        <p>Nos conectamos a tu dispositivo de forma segura para diagnosticar y reparar problemas rápidamente.</p>
+                        <p>Nos pondremos en conctacto contigo a la brevedad.</p>
+                        <input id="email" placeholder="Ingresa tu correo">
+                    </div>
+                </div>
+            
             <!-- Blog -->
                 <!-- Articulo 1 -->
-                <ul>
-                    <li>Se ha vuelto viral una herramienta gratuita que permite crear deepfakes en tiempo real: es un arma de doble filo</li>
-                    <li>Robótica e IA</li>
-                    <li>Los deepfakes no son una novedad. Hace años que venimos hablando de esta técnica de inteligencia artificial (IA) que da vida a imágenes o vídeos falsos.</li>
-                </ul>
+                    <ul class="art1" section id="services">
+                        <img src="images/img-art1.jfif"/>
+                        <li><h3>Se ha vuelto viral una herramienta gratuita que permite crear deepfakes en tiempo real: es un arma de doble filo</h3></li>
+                        <li><h4>Robótica e IA</h4></li>
+                        <li>Los deepfakes no son una novedad. Hace años que venimos hablando de esta técnica de inteligencia artificial (IA) que da vida a imágenes o vídeos falsos.</li>
+                    </ul>
+            
                 <!-- Articulo 2 -->
-                <ul>
-                    <li>Warren Buffett vendió la mitad de sus acciones de Apple. Ahora pagará impuestos equivalentes a los ingresos anuales de Spotify</li>
-                    <li>Empresas y economia</li>
-                    <li>La operación de venta de acciones que ha hecho "el oráculo de Omaha" durante este año le va a generar una factura fiscal de 15.000 millones de dólares, según avanza Quartz.</li>
-                </ul>
+                    <ul class="art2">
+                        <img src="images/img-art2.jfif"/>
+                        <li><h3>Warren Buffett vendió la mitad de sus acciones de Apple. Ahora pagará impuestos equivalentes a los ingresos anuales de Spotify</h3></li>
+                        <li><h4>Empresas y economia</h4></li>
+                        <li>La operación de venta de acciones que ha hecho "el oráculo de Omaha" durante este año le va a generar una factura fiscal de 15.000 millones de dólares, según avanza Quartz.</li>
+                    </ul>
+
                 <!-- Articulo 3 -->
-                <ul>
-                    <li>China fabrica más baterías que nadie. El problema: se acumulan junto a los paneles solares sin almacenar energía</li>
-                    <li>Energía</li>
-                    <li>La capacidad de almacenamiento energético de China ha aumentado un 40% en lo que va de año. En realidad, esas baterías apenas se usan el 9% del tiempo</li>
-                </ul>
-
+                    <ul class="art3">
+                        <img src="images/img-art3.jfif"/>
+                        <li><h3>China fabrica más baterías que nadie. El problema: se acumulan junto a los paneles solares sin almacenar energía</h3></li>
+                        <li><h4>Energía</h4></li>
+                        <li>La capacidad de almacenamiento energético de China ha aumentado un 40% en lo que va de año. En realidad, esas baterías apenas se usan el 9% del tiempo</li>
+                    </ul>
+            
             <!-- Adicionales -->
-                ¿Requieres soporte para tu empresa?
-                En un mundo empresarial donde la tecnología es clave, el soporte técnico especializado es más que una necesidad, es una garantía de continuidad y eficiencia. 
-                Contacta a uno de nuestros ejecutivos para una solución a la medida que se ajuste a las necesidades específicas de tu negocio. 
-                Ya sea que necesites mantenimiento de sistemas, instalación de redes, o seguridad informática avanzada, estamos aquí para asegurar que tus operaciones nunca se detengan. 
-                Nuestro equipo de expertos está listo para ofrecerte un servicio personalizado conforme a tu escenario.
-                Tu empresa merece el mejor soporte técnico.
-                <button>Quiero que se comuniquen conmigo</button>
-
+            <img src="images/image-2.jpg" class="img2"/>
+            <form action="" class="servicio" section id="contact"> 
+                    <h3>¿Requieres soporte para tu empresa?</h3>
+                    <p class="text-lg">En un mundo empresarial donde la tecnología es clave, el soporte técnico especializado es más que una necesidad, es una garantía de continuidad y eficiencia.
+                    Contacta a uno de nuestros ejecutivos para una solución a la medida que se ajuste a las necesidades específicas de tu negocio.
+                    Ya sea que necesites mantenimiento de sistemas, instalación de redes, o seguridad informática avanzada, estamos aquí para asegurar que tus operaciones nunca se detengan.
+                    Nuestro equipo de expertos está listo para ofrecerte un servicio personalizado conforme a tu escenario.
+                    Tu empresa merece el mejor soporte técnico.</p>
+                    <button class="button">Quiero que se comuniquen conmigo</button>
+                </form>
         </main>
+
         <footer>
-            <!-- Social Media -->
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul> 
             <!-- Menus -->
-                <!-- Infraestructura -->
-                <ul>
-                    <li>Intfraestructura</li>
-                    <li>Infraestructura de Red</li>
-                    <li>Infraestructura de Servidores</li>
-                    <li>Infraestructura de Almacenamiento</li>
-                    <li>Infraestructura de Seguridad de la Informacion</li>
-                </ul>
-                <!-- Facturacion -->
-                <ul>
+                
+            <!-- Social Media -->
+                <ul class="social-media">
                     <li></li>
-                    <li>Invoice</li>
-                    <li>Genera Factura</li>
-                    <li>Cambio RFC</li>
-                </ul>
-                <!-- Nosotros -->
-                <ul>
-                    <li>Nosotros</li>
-                    <li>Nuestra Historia</li>
-                    <li>Equipo</li>
-                    <li>Bolsa de Trabajo</li>
+                    <li></li>
+                    <li></li>
                 </ul> 
-                <!-- Legal -->
-                <ul>
-                    <li>Legal</li>
-                    <li>Privacidad</li>
-                    <li>Términos</li>
+                
+            <!-- Infraestructura -->
+                <ul class="infra">
+                    <li><a href="#">Infraestructura</a></li>
+                    <li><a href="#">Infraestructura de Red</a></li>
+                    <li><a href="#">Infraestructura de Servidores</a></li>
+                    <li><a href="#">Infraestructura de Almacenamiento</a></li>
+                    <li><a href="#">Infraestructura de Seguridad de la Informacion</a></li>
+                </ul>
+                
+            <!-- Facturacion -->
+                <ul class="fac">
+                    <li><a href="#">Facturacion</a></li>
+                    <li><a href="#">Invoice</a></li>
+                    <li><a href="#">Genera Factura</a></li>
+                    <li><a href="#">Cambio RFC</a></li>
+                </ul>
+                
+            <!-- Nosotros -->
+                <ul class="aboutus">
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Bolsa de Trabajo</a></li>
+                </ul> 
+                
+                
+            <!-- Legal -->
+                <ul class="legal" section id="about">
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Términos</a></li>
                     <li></li>
                 </ul> 
 
-            <p>© 2024 Soporte Técnico en el Hogar. Esta es una página de aterrizaje ficticia para fines académicos.</p>
-            <p>Contáctanos: soporte@domicilio.com | Tel: 555-1234-567</p>
+            <div class="bottom">
+                <p>© 2024 Soporte Técnico en el Hogar. Esta es una página de aterrizaje ficticia para fines académicos.</p>
+                <p>Contáctanos: <email>soporte@domicilio.com</email> | Tel: 555-1234-567</p>
+            </div>
         </footer>
     </body>
 </html>
