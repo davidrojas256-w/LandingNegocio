@@ -134,6 +134,10 @@ main {
     align-content: stretch;
 }
 
+.icons {
+    height: 20px;
+    width: auto;
+}
 
 nav ul {
     list-style: none;
